@@ -1,3 +1,121 @@
-h1{
-    color:green;
+.name{
+    font-family: tahoma;
+    color: blueviolet;
+    font-weight: 700;
+    text-align: center;
+    border: 2px solid red;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(191, 221, 243);
+}
+.pera{
+    font-size: 20px;
+    font-family: arial;
+    color: rgba(0, 110, 255, 0.699);
+    border: 4px solid pink;
+    margin: 20px;
+    padding: 30px;
+}
+.button{
+    color: aqua;
+    align-items: center;
+    size: 100px;
+}
+li{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+ul li{
+    color: blue;
+    display: inline;
+}
+.red{
+    border: 3px solid rgb(3, 134, 134);
+    padding: 5px;
+    margin: 5px;
+}
+.blue{
+    color: rgb(25, 82, 82);
+    background-color: aquamarine;
+}
+.header{
+    height: 250px;
+    text-align: center;
+    font-size: 30px;
+    font-family: tahoma;
+    color: aqua;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    background-image: url(../images/pxfuel.jpg);
+    background-size: 740px;
+}
+.nature{
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    font-weight: 700;
+    height: 150px;
+    /* background-image: url(apple.png); */
+    background-image: url(../images/nature.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-position: bottom right; */
+    color: aqua;
+    background-blend-mode: multiply;
+    /* background-color: green; */
+}
+.text{
+    text-decoration: none ;
+}
+.underline{
+    text-decoration: underline dashed red;
+    /* text-decoration: line-through; */
+    /* text-decoration: underline wavy 4px red; */
+}
+a{
+    text-decoration: none;
+}
+span{
+    color: chartreuse;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 50px;
+    /* display: block; */
+    /* display: inline-block; */
+    /* display: none; */
+}
+.shadow{
+    background-color: purple;
+    box-shadow: 10px 10px 10px rgb(131, 85, 131);
+}
+input{
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 70px;
+}
+input[type="text"]{
+    border: 2px solid purple;
+    border-radius: 5px;
+    color: green;
+}
+input[type="email"]{
+    border: 2px solid red;
+    color: blueviolet;
+}
+input[type="password"]{
+    border: 2px solid rgba(255, 0, 0, 0.171);
+    color: red;
+}
+input[type="submit"]{
+    border:2px solid blue;
+    background-color: greenyellow;
+    box-shadow: 5px 5px 5px green;
 }
